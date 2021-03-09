@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-
+import DemoFunction from './Components/DemoComponents/DemoFunction';
+import DemoClass from './Components/DemoComponents/DemoClass';
+import CardProduct from './Components/DemoComponents/CardProduct';
+import BaiTapLayout1 from './Components/BaiTapLayout1/BaiTapLayout1';
+import Databinding from './Databinding/Databinding';
+import BaiTapThucHanhLayout from './Components/BaiTapThucHanhLayout/BaiTapThucHanhLayout';
+import Styles from './Components/Styles/Styles';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Styles />
+
+      <p className="text-red">ngan</p>
+      <p className="textGreen">chicken</p>
     </div>
   );
 }
